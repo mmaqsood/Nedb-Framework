@@ -1,9 +1,9 @@
-var server = require('./core/server.js')
 var express = require('express');
 var app = express();
+var setup = require("./core/app-setup.js");
 
-//Start the server
-server(app);
+// Fire!
+setup(app);
 
 app.get('/', function (req, res) {
   res.send('Hello World!')
