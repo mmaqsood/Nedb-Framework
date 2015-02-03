@@ -1,0 +1,23 @@
+{
+  "name": "Nedb",
+  "version": "1.0.0",
+  "description": "Nedb Framework",
+  "main": "index.js",
+  "dependencies": {
+    "express": "~4.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mmaqsood/Nedb-Framework.git"
+  },
+  "author": "Mujahid Maqsood",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mmaqsood/Nedb-Framework/issues"
+  },
+  "homepage": "https://github.com/mmaqsood/Nedb-Framework"
+}
