@@ -1,10 +1,19 @@
 <!DOCTYPE html>
 <html>
   <head>
+  	<script data-main="js/common/require-config" src="../node_modules/requirejs/require.js"></script>
 	<link rel="stylesheet" type="text/css" href="../node_modules/bootstrap/dist/css/bootstrap.min.css"/>
 	<link rel="stylesheet" type="text/css" href="../styles/app.css"/>
     <title>Sample App</title>
   </head>
+	<script>
+		require(['require-config'], function() {
+			require(['jquery'], function($) {
+				//JQuery has been loaded
+			});
+		});
+	</script>
+
 	<body>
 		<div class="application-header">
 			Sample NED App!
