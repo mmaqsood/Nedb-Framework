@@ -1,0 +1,33 @@
+body {
+	background-color: #F1F1F1;
+	background: url(../images/background.jpg) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.application-header{
+	background-color: rgb(56, 56, 56);
+	height: 140px;
+	color: white;
+	text-align: center;
+	padding-top: 1.4%;
+	margin-bottom: 15px;
+	font-size: 35px;
+	-webkit-box-shadow: 0px 3px 6px 0px rgba(50, 50, 50, 0.26);
+	-moz-box-shadow:    0px 3px 6px 0px rgba(50, 50, 50, 0.26);
+	box-shadow:         0px 3px 6px 0px rgba(50, 50, 50, 0.26);
+}
+.navigation {
+	height:30px;
+	background-color:#F37A7A;
+	color:white;
+}
+.container {
+	background-color:white;
+	-webkit-box-shadow: 0px 0px 3px 0px rgba(50, 50, 50, 0.20);
+	-moz-box-shadow:    0px 0px 3px 0px rgba(50, 50, 50, 0.20);
+	box-shadow:         0px 0px 3px 0px rgba(50, 50, 50, 0.20);
+	padding: 1em 1em 1em 1em;
+}
