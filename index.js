@@ -23,6 +23,7 @@ app.use(bodyParser.urlencoded({
 }));
 app.use(bodyParser.json());
 app.use(methodOverride());
+app.use(express.static(__dirname + '/public'));
 
 // View setup
 app.engine('dust', cons.dust);

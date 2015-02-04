@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="../styles/bootstrap/bootstrap.css" rel="stylesheet">
+    <link href="../styles/bootstrap/bootstrap-theme.css" rel="stylesheet">
+    <title>Sample App</title>
+  </head>
+  <body>
+    <h1>Welcome</h1>
+    {content}
+  </body>
+</html>

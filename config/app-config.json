@@ -1,5 +1,5 @@
 {
 	"port": 3000,
 	"viewEngine" : "dust",
-	"viewDirectory" : "views"
+	"viewDirectory" : "public/templates"
 }
