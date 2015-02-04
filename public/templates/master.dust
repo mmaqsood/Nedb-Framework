@@ -9,7 +9,7 @@
 	<script>
 		require(['require-config'], function() {
 			require(['jquery'], function($) {
-				//JQuery has been loaded
+				//JQuery has been loaded 
 			});
 		});
 	</script>
