@@ -6,10 +6,10 @@
 	<link rel="stylesheet" type="text/css" href="../styles/app.css"/>
     <title>Sample App</title>
   </head>
-	<script>
+	<script type="text/javascript">
 		require(['require-config'], function() {
 			require(['jquery'], function($) {
-				//JQuery has been loaded 
+				var TODO = "Add code";
 			});
 		});
 	</script>
