@@ -1,7 +1,17 @@
 require.config({
-    baseUrl: '/node_modules/',
+    baseUrl: '/',
     paths: {
-        'jquery': 'jquery/dist/jquery.min',
-        'Backbone': 'backbone/backbone'
+
+        /*
+         * Custom
+        */
+        'TabManager': 'js/common/tab',
+        
+        /*
+         * Plugins
+        */
+        'jquery': 'node_modules/jquery/dist/jquery.min',
+        'bootstrap': 'node_modules/bootstrap/dist/js/bootstrap.min',
+        'Backbone': 'node_modules/backbone/backbone',
     }
 });
