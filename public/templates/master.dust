@@ -8,29 +8,27 @@
   </head>
 	<script type="text/javascript">
 		require(['require-config'], function() {
-			require(['jquery'], function($) {
-				require(['TabManager'], function(tabMan) {
-					$.tab({
-						id: 'tabArea',
-						tabs: [
-							{
-								id: 'home',
-								title: 'Home',
-								content: $("#home").html(),
-								active: true
-							},
-							{
-								id: 'today',
-								title: 'Today',
-								content: $("#today").html()
-							},
-							{
-								id: 'future',
-								title: 'Future',
-								content: $("#future").html()
-							}
-						]
-					});
+			require(['tab-manager'], function(tabMan) {
+				$.tab({
+					id: 'tabArea',
+					tabs: [
+						{
+							id: 'home',
+							title: 'Home',
+							content: $("#home").html(),
+							active: true
+						},
+						{
+							id: 'today',
+							title: 'Today',
+							content: $("#today").html()
+						},
+						{
+							id: 'future',
+							title: 'Future',
+							content: $("#future").html()
+						}
+					]
 				});
 			});
 		});
